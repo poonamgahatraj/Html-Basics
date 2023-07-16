@@ -23,6 +23,8 @@
             margin-top: 10%;
             margin-left: 25%;
             display:inline-block;
+            position:relative;
+            top:200px;
 
         }
         .circle
@@ -36,7 +38,7 @@
            bottom:32% ;
            left:22px ;*/
            display:inline-block;
-           position: relative;
+           position: absolute;
            right: 5%;
            top:45px;
            background: yellow;
@@ -50,7 +52,7 @@
             width:10%;
             height:100px;
           display: inline-block;
-           position: relative; 
+           position: absolute; 
            bottom:350px;
            right:15%; 
            background: yellow;
@@ -62,7 +64,7 @@
             width:10%;
             height:100px;
           display: inline-block;
-          position:relative;
+          position:absolute;
           bottom: 50px;
           left: 20%;
           background: yellow;
@@ -76,7 +78,7 @@
             width:10%;
             height:100px;
           display: inline-block;
-          position:relative;
+          position:absolute;
           bottom: 450px;
           left:8%;
           background: yellow;
@@ -84,14 +86,26 @@
     </style>
 </head>
 <body>
-   
+   <div style="display: flex;">
+    <div style="width:40%;">
+        <div class="small-box"></div>
+        <div class="circle"></div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+     </div>
+
+      <div style="width:40%;">
+        <div class="small-box"></div>
+        <div class="circle"></div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+     </div>
+</div>
      
-     
-      <div class="small-box"></div>
-      <div class="circle"></div>
-      <div class="circle1"></div>
-      <div class="circle2"></div>
-      <div class="circle3"></div>
+    
+    
       
 
 </body>

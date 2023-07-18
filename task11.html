@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+            border:2px solid#D3D3D3;
+            height:625px;
+            width:600px;
+            
+        }
+        .min-box
+        {
+            border:2px solid black;
+            height:400px;
+            width:294px; 
+            
+        }
+        .b
+        {
+            border:1px solid black;
+            height:20px;
+            width:20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="min-box" style="display:inline-block;background: #F2F2F2; border:2px solid #F2F2F2 ">
+                <h2 style="margin-left: 10px;">Billing Address</h2>
+                <form style="margin-left: 10px;">
+                    <label for="fname" style="font-size: 18px;">Full Name</label><br>
+                    <input type="text" id="1" name="fname"  placeholder="John M.Doe"style=" width:95%;padding:5px;"><br>
+                    <label for="fname"style="font-size: 18px;">E Mail</label><br>
+                    <input type="text" id="1" name="fname" placeholder="john@example.com"style=" width:95%;padding:5px;"><br>
+                    <label for="fname"style="font-size: 18px;">Address</label><br>
+                    <input type="text" id="1" name="fname" placeholder="542 w. 52 street"style=" width:95%;padding:5px;"><br>
+                    <label for="fname"style="font-size: 18px;">City</label><br>
+                    <input type="text" id="1" name="fname" placeholder="New York"style=" width:95%;padding:5px;"><br>
+                </form>
+            </div>
+            <div class="min-box" style="display:inline-block;background: #F2F2F2;border:2px solid #F2F2F2 ">
+                <h2 style="margin-left: 10px;">Payments</h2>
+                <form style="margin-left: 10px;">
+                    <label for="fname"  style="font-size: 18px;">Accepted Cards</label><br>
+                    <div class="b" style="display:inline-block"></div>
+                    <div class="b" style="display:inline-block"></div>
+                    <div class="b" style="display:inline-block"></div>
+                    <div class="b" style="display:inline-block"></div><br>
+                    <label for="fname"style="font-size: 18px;">Name on Cards</label><br>
+                    <input type="text" id="1" name="fname" placeholder="John MoreDoe" style=" width:95%;padding:5px;"><br>
+                    <label for="fname"style="font-size: 18px;">Credit Card No.</label><br>
+                    <input type="text" id="1" name="fname" placeholder="111-222-333" style=" width:95%;padding:5px;"><br>
+                    <label for="fname"style="font-size: 18px;">Exp. Month</label><br>
+                    <input type="text" id="1" name="fname" placeholder="September" style=" width:95%;padding:5px;"><br>
+                </form>
+            </div>
+            <br>
+            <br>
+            <div style=" margin-top: 25px;margin-left: 10px; flex-direction: row; display:flex;">
+            <form  style="margin-right: 15px;">
+                
+                <label for="fname" style="margin-right:25px;" >State</label><br>
+                <input type="text" id="1" name="fname" style="width:100px; margin-right: 10px; padding:10px;"><br>
+            </form>
+            <form style="margin-right: 15px;">
+                <label for="fname"style="margin-right:25px;">Zip</label><br>
+                <input type="text" id="1" name="fname" style="width:100px;margin-right: 10px;padding:10px;"><br>
+            </form>
+            <form style="margin-right: 15px;">
+                <label for="fname"style="margin-right:25px;">Exp. Year</label><br>
+                <input type="text" id="1" name="fname" style="width:100px;margin-right: 10px;padding:10px;"><br>
+            </form>
+            <form style="margin-right: 15px;">
+                <label for="fname"style="margin-right:25px;">CSS</label><br>
+                <input type="text" id="1" name="fname" style="width:100px;margin-right: 10px;padding:10px;"><br>
+                </form>
+            </div>
+             <br>
+             <br>
+                <form action="/action_page.php" style="margin-top: 10px;  margin-left: 10px;">
+                    
+                    <input type="checkbox" id="1" name="cb" >
+                    <label for="1">Shipping address same as billing</label>
+                </form> 
+                <br>
+                <br>
+                <form action="/action_page.php" style="margin-left: 10px; ">
+                    <input type="submit" value="Continue to checkOut" style="padding:10px; width:99%;   background: #555555;border:#555555;color: white;">
+                </form>
+            </div> 
+        </div>
+         
+      
+    </div>
+</body>
+</html>

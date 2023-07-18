@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container
+        {
+        border:2px solid#F1F1F1;;
+        height:600px;
+       /* background:black;*/
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .min-container
+        {
+            border:2px solid white;
+            height:375px;
+            margin-top: 20px;
+            width: 650px;
+           /* justify-content: center;
+            align-content: center;*/
+        }
+        .box1
+        {
+            height:171px ;
+            border:1px solid #F1F1F1; 
+        }
+        .box
+        {
+        border:2px solid #F1F1F1;
+        height:123px;
+        background:#F1F1F1;
+        margin-top: 10px;
+        
+        
+        }
+        .submit
+        {
+            background: #F1F1F1;
+            height:60px;
+            width:626px;
+            padding: 10px;
+            border: 2px solid #F1F1F1 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="min-container">
+            <div class="box">
+            <h2 style="margin-left: 20px; font-style: normal;">Subscribe to our news letter</h1>
+            <p style="margin-left: 20px; font-size: 14px;">Lorem ispum text about why you should subscribe to our news blabla.Lorem ispum text about why you should subscribe to our news blabla.Lorem ispum text about why you should subscribe to our news blabla.</p>
+            </div>
+            <div class="box1">
+                <form style="margin-top: 14px; margin-left: 10px;">
+
+                    <input type="text" id="fname" name="fname" placeholder="Name" style="padding:10px; width: 95%;border:1px solid #F1F1F1;"><br><br>
+                    <input type="text" id="fname" name="fname" placeholder="Email address" style="padding:10px;width: 95% ;border:1px solid #F1F1F1 ">
+                </form>
+                <form action="/action_page.php" style="margin-top: 10px;  margin-left: 20px;">
+                    <br>
+                    <input type="checkbox" id="1" name="cb" >
+                    <label for="1">Daily Newsletter</label><br>
+                </form>  <br>
+                <div class="submit">
+
+                    <form action="/action_page.php">
+                        <input type="submit" value="Subscribe" style="padding:10px; width:99%; margin-left: 7px; margin-top: 10px; background: #04AA6D; border: #04AA6D;color: white;">
+                    </form>
+                </div> 
+            </div>
+           
+            </div>
+            </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task9</title>
+    <style>
+        .main
+        {
+            border:2px solid white;
+            height:550px;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+            border:2px solid#F3F4F6;
+            background: #FFFFFF;
+            height:350px;
+            width:50%;
+        }
+
+        form:hover{
+            cursor:pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h2 style="margin-left: 30%;">Welcome back</h2>
+            <p style="font-size: 15px; margin-left: 30px;">Log In to manange your access to our service and tools.</p>
+            <form style=" font-size: 20px; border:#F3F4F6; background: #FFFFFF ; padding-left: 15px;">
+                <label for="fname" style="font-size:16px;">Email</label> <br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your Email here" style="color:#C2D3E6; border:1px solid #EFF1F3; padding: 10px;  width:90%"><br><br>
+                <label for="fname"style="font-size:16px;">Password</label> <br>
+                <input type="password" id="fname" name="fname" placeholder="Enter your password here" style="color:#C2D3E6; border:1px solid #EFF1F3; padding: 10px;  width:90%"><br><br>
+             </form>
+
+             <form action="/action_page.php"  >
+
+                <input type="submit" value="Log In"  style="background: #DD562B;border:1px solid orangered; width:92%; padding:10px; margin-left: 15px; border-radius: 10px; color:white;" ><br>
+
+             </form>
+
+             <a href="#" style="margin-left: 70%; color: black;">Forget Password? </a>
+        </div>
+    </div>
+</body>
+</html>
